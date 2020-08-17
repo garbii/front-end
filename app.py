@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome to first S2I build strategy openshift project3"
+    return "Welcome to first S2I build strategy, Full CI/CD test"
 
 @app.route('/how are you')
 def hello():
